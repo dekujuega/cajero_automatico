@@ -70,7 +70,7 @@ public class beta {
  			System.out.println("que desea consultar: 1.saldo 2.transacciones");
  			int trs = reader.nextInt();
  			if(trs == 1) {
- 				System.out.println("su taldo actual es: "+account.getSaldo());
+ 				System.out.println("su saldo actual es: "+account.getSaldo());
  			}else if(trs == 2) {
  				try {
  					BufferedReader lector = new BufferedReader( new FileReader("C:\\Users\\test\\eclipse-workspace\\javaFXapp\\src\\cajero\\model\\data_cajero.txt"));
