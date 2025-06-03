@@ -1,3 +1,4 @@
+//hecho por Luis Carlos Saldaña Peña
 package cajero.model;
 import java.util.Scanner;
 import java.io.BufferedReader;
